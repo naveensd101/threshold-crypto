@@ -8,7 +8,7 @@
 ## V2
 
  - Code refactoring for `split/main.py`
- - Lagrange interpolation using `scipy` library in `combline/main.py`
+ - Lagrange interpolation using `scipy` library in `combine/main.py`
 
 ![output image_v2](img/v2.png)
 
