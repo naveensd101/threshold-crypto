@@ -1,8 +1,8 @@
 # Threshold Cryptography
 
- - [x] N shares out of which k should be there
- - [x] N shares out of which all n should be there
- - [ ] N shares out of which m `(m < n)` specific ones to be there
+ - [x] V2 N shares out of which k should be there
+ - [x] V2 N shares out of which all n should be there
+ - [ ] V3 N shares out of which m `(m < n)` specific ones to be there
  - [ ] N shares out of which m `(m < n)` randomly selected parts to be mandatorily there
 
 ## V3
@@ -33,8 +33,10 @@ x >= n - k + 1
 
 So let us take the minima x = n - k + 1 to be the number of keys given to each special person.
 Let K be the total number of keys required to decrypt the secret.
-K = (n - k + 1) * m + (k - m) 
- 	 [special]        [normal]
+K = (n - k + 1) * m + (k - m)
+    ---------------   -------
+     |                     |
+    [special]        [normal]
 
 Let N be the total number of keys.
 N = (n - k + 1) * m + (n - m)
