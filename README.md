@@ -3,7 +3,7 @@
  - [x] N shares out of which k should be there
  - [x] N shares out of which all n should be there
  - [ ] N shares out of which m `(m < n)` specific ones to be there
- - [ ] N shares out of which m `(m < n)` randomly selected part to be mandatorialy there
+ - [ ] N shares out of which m `(m < n)` randomly selected parts to be mandatorily there
 
 ## V2
 
